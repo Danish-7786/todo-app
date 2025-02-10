@@ -2,7 +2,7 @@ import React from 'react'
 
 function Todo({todo,toggleTodo,deleteTodo}) {
   return (
-    <div className='bg-yellow-200'>
+    <div className='bg-green-200'>
       <li 
               key={todo.id} 
               className="flex items-center justify-between p-2 border-b"
